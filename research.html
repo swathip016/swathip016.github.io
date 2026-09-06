@@ -1,24 +1,253 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-
-<title>
-Swathi Padmanabhan
-</title>
-
-<link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | Swathi Padmanabhan</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
 
-<h1>
-Coming soon
-</h1>
+<header>
+    <nav>
+        <div class="logo"></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <!-- <li><a href="awards.html">Awards</a></li> -->
+            <!-- <li><a href="beyond_lab.html">Beyond Lab</a></li> -->
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="research-showcase" class="research-showcase section-soft">
+    <div class="research-showcase-header fade-up">
+        <p class="research-kicker">Research</p>
+        <h2 class="section-title">Research Themes</h2>
+        <p class="research-showcase-intro">
+            You can explore a little bit about the research themes that I have worked on. If you are someone who questions or are just curious, just click on the "Dive Deeper!" links to explore in depth.
+        </p>
+    </div>
+
+    <div class="research-tabs-layout fade-up delay-1">
+        <div class="research-tab-rail" role="tablist" aria-label="Research themes">
+            <button class="research-tab is-active" role="tab" aria-selected="true" aria-controls="research-panel-1" id="research-tab-1">
+                <span class="research-tab-index">01</span>
+                <span class="research-tab-copy">
+                    <span class="research-tab-title">Polarisation Enhanced Photoacoustic Sensing</span>
+                    <span class="research-tab-subtitle">Non invasive and Deep-tissue measurements for Glucose</span>
+                </span>
+            </button>
+
+            <button class="research-tab" role="tab" aria-selected="false" aria-controls="research-panel-2" id="research-tab-2">
+                <span class="research-tab-index">02</span>
+                <span class="research-tab-copy">
+                    <span class="research-tab-title">Optoacoustofluidics</span>
+                    <span class="research-tab-subtitle">Compact microfluidic platforms for optical rotation from photoacoustics</span>
+                </span>
+            </button>
+
+            <button class="research-tab" role="tab" aria-selected="false" aria-controls="research-panel-3" id="research-tab-3">
+                <span class="research-tab-index">03</span>
+                <span class="research-tab-copy">
+                    <span class="research-tab-title">Photoacoustic Circular Dichroism</span>
+                    <span class="research-tab-subtitle">Optical Rotary Dispersion and CDAI</span>
+                </span>
+            </button>
+
+            <button class="research-tab" role="tab" aria-selected="false" aria-controls="research-panel-4" id="research-tab-4">
+                <span class="research-tab-index">04</span>
+                <span class="research-tab-copy">
+                    <span class="research-tab-title">Gold-Coppersulphide Nanoparticles for Photo-theranostic Applications</span>
+                    <span class="research-tab-subtitle">System design for combined photothermal therapy and photoacoustic applications</span>
+                </span>
+            </button>
+
+             <button class="research-tab" role="tab" aria-selected="false" aria-controls="research-panel-5" id="research-tab-5">
+                <span class="research-tab-index">05</span>
+                <span class="research-tab-copy">
+                    <span class="research-tab-title">Hyperspectral Raman Fiber Laser for Photoacoustic Imaging</span>
+                    <span class="research-tab-subtitle">Compact and efficient laser sources for enhanced photoacoustic imaging</span>
+                </span>
+            </button>
+        </div>
+
+        <div class="research-panels-shell">
+            <article class="research-panel is-active" id="research-panel-1" role="tabpanel" aria-labelledby="research-tab-1">
+                <div class="research-panel-media">
+                    <img src="images/R1.png" alt="Placeholder image for photoacoustic molecular sensing">
+                </div>
+                <div class="research-panel-content">
+                    <p class="research-panel-meta">Theme 01</p>
+                    <h3>Polarisation Enhanced Photoacoustic Sensing</h3>
+                    <p>
+                       We explored how the polarisation of light can provide additional
+                information about biological molecules, and how this information
+                can be used for sensing at depth.
+                    </p>
+                    <div class="research-focus-list">
+                        <span>Deep-tissue sensing</span>
+                        <span>Non-invasive Glucose Monitoring</span>
+                        <span>Optical Rotation</span>
+                    </div>
+                    <ul class="research-panel-points">
+                        <li>Investigating applications in non-invasive sensing glucose monitoring and biomedical diagnostics. </li>
+
+                        <li>Observed optical phenonmneon (optical rotation or optical activity) at different depths from acoustics.</li>
+                    </ul>
+                    <div class="research-panel-actions">
+                        <a href="https://www.science.org/doi/10.1126/sciadv.ado8012" class="publication-link" target="_blank">Dive Deeper!</a>
+                        <a href="https://opg.optica.org/ol/abstract.cfm?uri=ol-50-1-149" class="publication-link">Dive Deeper!</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="research-panel" id="research-panel-2" role="tabpanel" aria-labelledby="research-tab-2" hidden>
+                <div class="research-panel-media">
+                    <img src="images/R2.png" alt="Placeholder image for optoacoustofluidics">
+                </div>
+                <div class="research-panel-content">
+                    <p class="research-panel-meta">Theme 02</p>
+                    <h3>Optoacoustofluidics</h3>
+                    <p>
+                        We developed an optoacousto-fluidic approach to measure optical
+            rotation in biological samples, with a focus on realistic blood glucose
+            platform.
+                    </p>
+                    <div class="research-focus-list">
+                        <span>Microfluidics</span>
+                        <span>Blood Flow</span>
+                        <span>Non-invasive Glucose Sensing</span>
+                    </div>
+                    <ul class="research-panel-points">
+                        <li>Tested on blood samples from healthy and diabetic patients.</li>
+                        <li>Compact design for mimicking realistic conditions</li>
+
+                    </ul>
+                    <div class="research-panel-actions">
+                        <a href="https://ieeexplore.ieee.org/document/10985792" class="publication-link">Dive Deeper!</a>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="research-panel" id="research-panel-3" role="tabpanel" aria-labelledby="research-tab-3" hidden>
+                <div class="research-panel-media">
+                    <img src="images/R3.png" alt="Placeholder image for photoacoustic circular dichroism">
+                </div>
+                <div class="research-panel-content">
+                    <p class="research-panel-meta">03</p>
+                    <h3>Photoacoustic Circular Dichroism</h3>
+                    <p>
+                         Developing approaches with photoacoustic spectroscopyto detect optical activity of biomolecules in the
+                near-infrared-II wavelength range.
+                    </p>
+                    <div class="research-focus-list">
+                        <span>Wavelength dependent Optical Activity</span>
+                        <span>Circular Polarisation</span>
+                        <span>Circular Differential Absorption</span>
+                    </div>
+                    <ul class="research-panel-points">
+                        <li>Testing and validation of the photoacoustic circular dichroism technique on microfluidic samples.</li>
+                        <li>Demostration of Optical Rotary Dispersion (ORD) from photoacoustics</li>
+
+                    </ul>
+                    <div class="research-panel-actions">
+                        <a href="https://ieeexplore.ieee.org/document/11165187" class="publication-link">Dive Deeper!</a>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="research-panel" id="research-panel-4" role="tabpanel" aria-labelledby="research-tab-4" hidden>
+                <div class="research-panel-media">
+                     <img src="images/R5.png" alt="Placeholder image for gold-coppersulphide nanoparticles for photo-theranostic applications">
+                </div>
+                <div class="research-panel-content">
+                    <p class="research-panel-meta">Theme 04</p>
+                    <h3>Gold-Coppersulphide Nanoparticles for Photo-theranostic Applications</h3>
+                    <p>
+                        We developed ultrasmall CuS–Au nanohybrids designed to combine imaging and therapeutic functions within a single nanomaterial.
+                        By integrating the photoacoustic and photothermal properties of CuS with the functional properties of gold,
+                        we explored their potential as contrast agents for imaging and as light-activated agents for cancer therapy.
+                    </p>
+                    <div class="research-focus-list">
+                        <span>Instrumentation</span>
+                        <span>Photothermal Therapy</span>
+                        <span>Photoacoustic Contrast</span>
+                    </div>
+                    <ul class="research-panel-points">
+                        <li>Combined imaging and therapy instrumentation.</li>
+                        <li>Investigating photothermal and reactive-oxygen-species-mediated anticancer effects in cancer cells and tissue-mimicking models.</li>
+                    </ul>
+                    <div class="research-panel-actions">
+                        <a href="https://pubs.acs.org/aanmf6/article-abstract/6/16/14861/353307/Seed-Mediated-Galvanic-Synthesis-of-CuS-Au?redirectedFrom=fulltext" class="publication-link">Dive Deeper!</a>
+                    </div>
+                </div>
+            </article>
+
+             <article class="research-panel" id="research-panel-5" role="tabpanel" aria-labelledby="research-tab-5" hidden>
+                <div class="research-panel-media">
+                    <img src="images/R6.png" alt="Placeholder image for hyperspectral raman fiber laser for photoacoustic imaging">
+                </div>
+                <div class="research-panel-content">
+                    <p class="research-panel-meta">Theme 05</p>
+                    <h3>Hyperspectral Raman Fiber Laser for Photoacoustic Imaging</h3>
+                    <p>
+                        We developed widely tunable Raman fiber laser sources to provide
+            flexible wavelengths for low cost photoacoustic imaging.
+                    </p>
+                    <div class="research-focus-list">
+                        <span>Instrumentation</span>
+                        <span>Photoacoustic Spectroscopy</span>
+                        <span>Tunable and Low Cost Sources</span>
+                    </div>
+                    <ul class="research-panel-points">
+                        <li>Widely tunable Raman Source for the second near infrared (NIR-II) window [1060-1600 nm] and through harmonic conversion in the visible window [530-600 nm]</li>
+                        <li>Photoacoustic Spectroscopy of Lipids</li>
+                    </ul>
+                    <div class="research-panel-actions">
+                        <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13319/1331911/Widely-tunable-Raman-fiber-laser-for-hyperspectral-photoacoustic-imaging/10.1117/12.3043033.full" class="publication-link">Dive Deeper!</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<script>
+    (function () {
+        const tabs = document.querySelectorAll('.research-tab');
+        const panels = document.querySelectorAll('.research-panel');
+
+        tabs.forEach((tab, index) => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(t => {
+                    t.classList.remove('is-active');
+                    t.setAttribute('aria-selected', 'false');
+                });
+
+                panels.forEach(panel => {
+                    panel.classList.remove('is-active');
+                    panel.hidden = true;
+                });
+
+                tab.classList.add('is-active');
+                tab.setAttribute('aria-selected', 'true');
+
+                const panel = panels[index];
+                if (panel) {
+                    panel.hidden = false;
+                    panel.classList.add('is-active');
+                }
+            });
+        });
+    })();
+</script>
 
 </body>
-
 </html>
